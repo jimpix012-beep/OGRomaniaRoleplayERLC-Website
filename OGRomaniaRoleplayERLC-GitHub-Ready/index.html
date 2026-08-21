@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b72ff">
+<meta name="description" content="OG Romania — regulament ERLC Hard Roleplay">
+<title>OG Romania • Regulament</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-grid"></div>
+<header class="topbar">
+  <a class="brand" href="#home" data-page="home">
+    <img src="logo.png" alt="OG Romania">
+    <div><strong>OG ROMANIA</strong><span>HARD ROLEPLAY</span></div>
+  </a>
+  <nav class="nav">
+    <a href="#home" data-page="home">Home</a>
+    <a href="#regulament" data-page="regulament">Regulament</a>
+    <a href="#sanctiuni" data-page="sanctiuni">Sancțiuni</a>
+    <a href="#despre" data-page="despre">Despre</a>
+  </nav>
+  <div class="actions">
+    <button id="themeBtn" class="icon-btn" aria-label="Schimbă tema">☾</button>
+    <a class="discord-btn" href="https://discord.gg/nYnZEfFnF" target="_blank" rel="noopener">Discord ↗</a>
+  </div>
+</header>
+
+<main>
+<section id="home" class="page active">
+  <div class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="dot"></span> SERVER OFFICIAL • ERLC HARD ROLEPLAY</div>
+      <h1>Construim <span>roleplay.</span><br>Creștem împreună.</h1>
+      <p>OG Romania este o comunitate în creștere, construită în jurul hard roleplay-ului, realismului și respectului. Ne dorim o experiență cât mai autentică, în care fiecare scenariu are un scop, fiecare decizie are consecințe, iar fiecare jucător contribuie la povestea orașului.</p>
+      <div class="hero-actions">
+        <a class="primary" href="#regulament" data-page="regulament">Citește regulamentul</a>
+        <a class="secondary" href="#sanctiuni" data-page="sanctiuni">Vezi sancțiunile</a>
+      </div>
+      <div class="stats">
+        <div><b>43</b><span>Reguli</span></div>
+        <div><b id="onlineCount">—</b><span>Jucători online</span></div>
+        <div><b id="serverStatus">Verifică...</b><span>Status server</span></div>
+        <div><b>WARN</b><span>Sancțiune de bază</span></div>
+      </div>
+
+      <div class="live-card" id="livePlayersCard">
+        <div class="live-head">
+          <div>
+            <div class="live-kicker"><span class="live-dot"></span> LIVE SERVER</div>
+            <h3>Jucători online</h3>
+          </div>
+          <div class="live-count" id="playerCount">—</div>
+        </div>
+        <div class="live-status" id="serverStatus">Se conectează la server...</div>
+        <div class="player-list" id="playerList">
+          <div class="player-loading">Se încarcă lista jucătorilor...</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="scan"></div>
+      <img src="logo.png" alt="OG Romania logo">
+      <div class="hero-card-title">OG ROMANIA</div>
+      <div class="hero-card-sub">ROLEPLAY COMMUNITY</div>
+      <div class="status" id="liveStatus"><span></span> <span id="liveStatusText">SERVER ONLINE</span></div>
+      <div class="live-mini"><span class="live-dot"></span><strong id="livePlayersMini">—</strong><span>/ <span id="liveMaxMini">—</span> jucători</span></div>
+    </div>
+  </div>
+  <div class="feature-grid">
+    <div class="feature"><span>01</span><h3>Hard RP</h3><p>Realism, consecințe și respect pentru povestea creată împreună.</p></div>
+    <div class="feature"><span>02</span><h3>Fair Play</h3><p>Nu trebuie să câștigi fiecare situație. Calitatea RP-ului contează mai mult.</p></div>
+    <div class="feature"><span>03</span><h3>Staff</h3><p>Sancțiunile sunt progresive și țin cont de context, intenție și istoric.</p></div>
+  </div>
+</section>
+
+<section id="regulament" class="page">
+  <div class="page-head">
+    <div><div class="eyebrow">DOCUMENT OFICIAL</div><h2>Regulament <span>Hard Roleplay</span></h2><p>Folosește căutarea pentru a găsi rapid o regulă.</p></div>
+    <div class="search-wrap"><span>⌕</span><input id="search" placeholder="Caută o regulă..." autocomplete="off"></div>
+  </div>
+  <div id="rules" class="rules"><article class="rule-card" id="rule-1">
+<div class="rule-number">01</div>
+<div class="rule-body"><h3>PRINCIPII GENERALE</h3>
+<p>1.1 Roleplay (RP)</p>
+<p>Roleplay-ul reprezintă simularea cât mai realistă a unei situații din viața reală. Fiecare jucător trebuie să își interpreteze personajul într-un mod credibil și să ia decizii bazate pe ceea ce ar face personajul său în situația respectivă.</p>
+<p>1.2 In Character (IC)</p>
+<p>IC reprezintă toate acțiunile, informațiile și conversațiile desfășurate din perspectiva personajului.</p>
+<p>Jucătorul trebuie să gândească și să acționeze conform informațiilor pe care personajul său le-ar avea în mod realist.</p>
+<p>1.3 Out Of Character (OOC)</p>
+<p>OOC reprezintă orice informație sau conversație care ține de persoana din spatele personajului și nu de situația roleplay.</p>
+<p>Informațiile OOC nu pot fi folosite pentru a influența o situație IC.</p>
+<p>1.4 Dovezi</p>
+<p>Orice reclamație privind o încălcare a regulamentului trebuie susținută, pe cât posibil, de dovezi clare și complete.</p>
+<p>Dovezile trebuie să prezinte suficient context pentru ca situația să poată fi analizată corect.</p>
+</div></article>
+<article class="rule-card" id="rule-2">
+<div class="rule-number">02</div>
+<div class="rule-body"><h3>POWERGAMING (PG)</h3>
+<p>Powergaming reprezintă efectuarea unor acțiuni nerealiste sau imposibile pentru a obține un avantaj într-o situație RP.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Ignorarea completă a rănilor grave.</p>
+<p>Supraviețuirea unor situații în care, realist, personajul ar fi grav rănit sau incapabil să continue.</p>
+<p>Forțarea unei acțiuni asupra altui jucător fără să îi oferi posibilitatea unei reacții.</p>
+<p>Folosirea unor abilități sau posibilități inexistente în realitate.</p>
+<p>Executarea unor acțiuni imposibile din punct de vedere fizic.</p>
+<p>Continuarea unei lupte după ce personajul este grav rănit fără o justificare realistă.</p>
+<p>Folosirea mecanicilor jocului pentru a evita consecințele RP.</p>
+<p>Într-un server Hard RP, jucătorii trebuie să țină cont permanent de limitele fizice și logice ale personajului.</p>
+</div></article>
+<article class="rule-card" id="rule-3">
+<div class="rule-number">03</div>
+<div class="rule-body"><h3>METAGAMING (MG)</h3>
+<p>Metagaming reprezintă folosirea informațiilor obținute OOC în scop IC.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Aflarea locației unei persoane printr-o conversație externă și folosirea informației IC.</p>
+<p>Comunicarea cu alte persoane prin aplicații externe pentru coordonarea unei acțiuni RP.</p>
+<p>Urmărirea unei persoane deoarece ai văzut informația într-un stream.</p>
+<p>Folosirea informațiilor de pe Discord, streamuri, chat-uri sau alte surse externe pentru a influența o situație IC.</p>
+<p>Transmiterea informațiilor IC către persoane care nu ar avea posibilitatea realistă să le cunoască.</p>
+<p>Metagaming-ul este interzis indiferent dacă informația respectivă pare „minoră”.</p>
+</div></article>
+<article class="rule-card" id="rule-4">
+<div class="rule-number">04</div>
+<div class="rule-body"><h3>RANDOM DEATHMATCH (RDM)</h3>
+<p>RDM reprezintă atacarea sau uciderea unei persoane fără un motiv RP legitim.</p>
+<p class="label">Este interzis:</p>
+<ul>
+</ul>
+<p>Să ataci o persoană aleatoriu.</p>
+<p>Să tragi asupra unei persoane fără motiv.</p>
+<p>Să omori un jucător doar pentru amuzament.</p>
+<p>Să începi o confruntare fără un context RP.</p>
+<p>Să folosești o situație minoră ca pretext pentru a omorî un jucător.</p>
+<p>Orice folosire a forței letale trebuie să aibă o justificare RP clară și proporțională.</p>
+</div></article>
+<article class="rule-card" id="rule-5">
+<div class="rule-number">05</div>
+<div class="rule-body"><h3>VEHICLE DEATHMATCH (VDM)</h3>
+<p>VDM reprezintă folosirea intenționată a unui vehicul pentru a lovi, răni sau omorî alte persoane fără un motiv RP justificat.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Lovirea intenționată a unui pieton.</p>
+<p>Folosirea vehiculului ca armă fără justificare.</p>
+<p>Călcarea unei persoane doar pentru a o elimina dintr-o situație.</p>
+<p>Lovirea intenționată a unei persoane pentru a câștiga un conflict.</p>
+<p>Accidentele produse accidental trebuie roleplay-uite corespunzător.</p>
+</div></article>
+<article class="rule-card" id="rule-6">
+<div class="rule-number">06</div>
+<div class="rule-body"><h3>NO-FEAR ROLEPLAY (NF)</h3>
+<p>No-Fear reprezintă lipsa fricii într-o situație în care o persoană normală ar manifesta frică.</p>
+<p>Jucătorii trebuie să își protejeze viața și să reacționeze realist la pericole.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Să ameninți sau să provoci o persoană care are o armă îndreptată asupra ta.</p>
+<p>Să ignori o amenințare directă la adresa vieții.</p>
+<p>Să continui să ataci o persoană înarmată atunci când situația nu îți oferă o șansă realistă.</p>
+<p>Să tratezi o situație mortală ca pe o glumă.</p>
+<p>Să nu reacționezi corespunzător la o situație extrem de periculoasă.</p>
+<p>Frica nu înseamnă că personajul trebuie să accepte orice ordin. Reacția trebuie să fie însă realistă și proporțională cu pericolul.</p>
+</div></article>
+<article class="rule-card" id="rule-7">
+<div class="rule-number">07</div>
+<div class="rule-body"><h3>COP FEAR (CF)</h3>
+<p>Cop Fear este o formă de No-Fear aplicată situațiilor care implică forțele de ordine.</p>
+<p class="label">Este interzis:</p>
+<ul>
+</ul>
+<p>Să tratezi polițiștii ca și cum nu ar reprezenta nicio amenințare.</p>
+<p>Să provoci inutil un polițist înarmat.</p>
+<p>Să ignori ordinele legitime fără un motiv RP.</p>
+<p>Să insulți sau să provoci polițiștii doar pentru a genera o urmărire.</p>
+<p>Să tratezi o arestare sau o intervenție armată ca pe o situație lipsită de consecințe.</p>
+</div></article>
+<article class="rule-card" id="rule-8">
+<div class="rule-number">08</div>
+<div class="rule-body"><h3>REVENGEKILL (RK)</h3>
+<p>Revengekill reprezintă întoarcerea intenționată pentru a te răzbuna după ce personajul tău a fost eliminat într-o situație RP.</p>
+<p>După moartea personajului, acesta nu trebuie să se întoarcă imediat pentru a căuta persoanele responsabile.</p>
+<p>Informațiile care au fost pierdute în urma morții nu pot fi folosite pentru a iniția o răzbunare.</p>
+</div></article>
+<article class="rule-card" id="rule-9">
+<div class="rule-number">09</div>
+<div class="rule-body"><h3>PLAYER KILL (PK)</h3>
+<p>Player Kill reprezintă pierderea memoriei referitoare la o anumită situație RP după moartea personajului.</p>
+<p>După un PK, personajul nu poate folosi informațiile din situația respectivă pentru a continua conflictul.</p>
+<p>PK-ul trebuie tratat ca o separare clară între situația anterioară și RP-ul ulterior.</p>
+</div></article>
+<article class="rule-card" id="rule-10">
+<div class="rule-number">10</div>
+<div class="rule-body"><h3>CHARACTER KILL (CK)</h3>
+<p>Character Kill reprezintă eliminarea definitivă a unui personaj dintr-o poveste RP.</p>
+<p class="label">După un CK:</p>
+<ul>
+</ul>
+<p>Personajul nu mai poate reveni în aceeași poveste.</p>
+<p>Nu poate folosi informațiile personajului anterior.</p>
+<p>Nu poate pretinde că este rudă sau apropiat al personajului pentru a continua povestea.</p>
+<p>Nu poate folosi informații, dovezi sau relații obținute prin personajul anterior.</p>
+<p>Un nou personaj trebuie să aibă o identitate și o poveste distinctă.</p>
+<p>CK-ul trebuie să fie justificat printr-un RP serios și coerent, nu folosit abuziv pentru eliminarea altui jucător.</p>
+</div></article>
+<article class="rule-card" id="rule-11">
+<div class="rule-number">11</div>
+<div class="rule-body"><h3>ROB &amp; KILL / KILL &amp; ROB</h3>
+<p>Este interzis să jefuiești o persoană doar pentru a o elimina imediat după sau să o omori doar pentru a-i lua bunurile.</p>
+<p>Un jaf trebuie să aibă un scop RP, iar uciderea victimei trebuie să fie justificată separat.</p>
+<p class="label">Exemple de abuz:</p>
+<p>Jefuirea unei persoane și omorârea ei imediat fără motiv.</p>
+<p>Omorârea unei persoane doar pentru a-i lua bunurile.</p>
+<p>Eliminarea unei persoane după ce ai constatat că nu are nimic de valoare.</p>
+<p>Jefuirea unei persoane inconștiente fără un context RP valid.</p>
+</div></article>
+<article class="rule-card" id="rule-12">
+<div class="rule-number">12</div>
+<div class="rule-body"><h3>ROLEPLAY SCÂRBOS / INDECENT</h3>
+<p>Roleplay-ul excesiv de vulgar, degradant, sexual sau dezgustător este interzis fără acordul tuturor persoanelor implicate.</p>
+<p>Nu este permisă folosirea unor astfel de situații pentru hărțuirea, umilirea sau deranjarea altor jucători.</p>
+<p>Orice comportament abuziv poate fi sancționat indiferent dacă este prezentat drept „glumă”.</p>
+</div></article>
+<article class="rule-card" id="rule-13">
+<div class="rule-number">13</div>
+<div class="rule-body"><h3>MIXING</h3>
+<p>Mixing reprezintă combinarea informațiilor IC și OOC într-un mod care afectează roleplay-ul.</p>
+<p class="label">Exemplu:</p>
+<p>Folosirea unei conversații OOC pentru a transmite unei persoane o informație pe care personajul nu ar avea cum să o cunoască.</p>
+</div></article>
+<article class="rule-card" id="rule-14">
+<div class="rule-number">14</div>
+<div class="rule-body"><h3>CAR RAM (CR)</h3>
+<p>Car Ram reprezintă folosirea intenționată a unui vehicul pentru a lovi sau împinge alte vehicule fără o justificare RP.</p>
+<p class="label">Este interzis:</p>
+<ul>
+</ul>
+<p>Să lovești intenționat un vehicul pentru distracție.</p>
+<p>Să provoci accidente doar pentru a crea haos.</p>
+<p>Să folosești vehiculul pentru a obține un avantaj nerealist.</p>
+<p>Să lovești repetat un vehicul fără justificare.</p>
+<p>Într-o urmărire, contactul dintre vehicule trebuie să fie realist și proporțional.</p>
+</div></article>
+<article class="rule-card" id="rule-15">
+<div class="rule-number">15</div>
+<div class="rule-body"><h3>CAR SURF</h3>
+<p>Este interzis să stai pe exteriorul unui vehicul aflat în deplasare într-un mod nerealist.</p>
+<p>Orice situație în care personajul este transportat într-o poziție periculoasă trebuie să fie justificată printr-un RP realist.</p>
+</div></article>
+<article class="rule-card" id="rule-16">
+<div class="rule-number">16</div>
+<div class="rule-body"><h3>PROVOKING</h3>
+<p>Provoking reprezintă provocarea intenționată a altui jucător pentru a genera o situație RP doar din amuzament.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Provocarea poliției pentru a începe o urmărire.</p>
+<p>Insultarea repetată a unei persoane fără motiv.</p>
+<p>Căutarea intenționată a unui conflict.</p>
+<p>Crearea unei situații doar pentru a determina alt jucător să reacționeze violent.</p>
+<p>Conflictul RP trebuie să aibă o bază logică.</p>
+</div></article>
+<article class="rule-card" id="rule-17">
+<div class="rule-number">17</div>
+<div class="rule-body"><h3>COP BAIT</h3>
+<p>Cop Bait reprezintă provocarea intenționată a poliției pentru a determina agenții să înceapă o urmărire sau o intervenție.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Trecerea repetată pe lângă poliție pentru a atrage atenția.</p>
+<p>Provocarea agenților fără motiv.</p>
+<p>Crearea intenționată a unor situații minore doar pentru a obține o urmărire.</p>
+<p>Conducerea într-un mod evident provocator doar pentru a atrage poliția.</p>
+<p>Dacă un jucător comite o faptă ilegală reală și poliția reacționează, situația nu este automat Cop Bait.</p>
+</div></article>
+<article class="rule-card" id="rule-18">
+<div class="rule-number">18</div>
+<div class="rule-body"><h3>REFUZ RP</h3>
+<p>Refuzul RP reprezintă refuzul de a participa în mod rezonabil la o situație roleplay.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Ignorarea completă a unei acțiuni RP asupra personajului.</p>
+<p>Refuzul de a reacționa la o situație evidentă.</p>
+<p>Părăsirea intenționată a unei situații pentru a evita consecințele.</p>
+<p>Pretinderea că o situație nu s-a întâmplat fără o justificare RP.</p>
+<p>Jucătorii sunt obligați să contribuie la desfășurarea RP-ului.</p>
+</div></article>
+<article class="rule-card" id="rule-19">
+<div class="rule-number">19</div>
+<div class="rule-body"><h3>FAIL RP</h3>
+<p>Fail RP reprezintă orice acțiune care distruge logica sau realismul unei situații roleplay.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Acțiuni imposibile sau absurde.</p>
+<p>Folosirea mecanicilor jocului pentru a evita o consecință RP.</p>
+<p>Intrarea într-o zonă în care personajul nu ar putea ajunge realist doar pentru a scăpa.</p>
+<p>Ignorarea completă a unei situații grave.</p>
+<p>Crearea unui scenariu imposibil doar pentru a câștiga.</p>
+<p>Folosirea unei limitări tehnice pentru a obține un avantaj IC.</p>
+</div></article>
+<article class="rule-card" id="rule-20">
+<div class="rule-number">20</div>
+<div class="rule-body"><h3>LOW EFFORT ROLEPLAY (LER)</h3>
+<p>Low Effort RP reprezintă desfășurarea unui roleplay fără interes, realism sau implicare.</p>
+<p>Într-un server Hard RP, jucătorii trebuie să depună un efort rezonabil pentru ca situațiile să fie credibile.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Răspunsuri foarte scurte și lipsite de sens într-o situație serioasă.</p>
+<p>Grăbirea intenționată a unei situații fără motiv.</p>
+<p>Tratarea unui RP important ca pe o glumă.</p>
+<p>Ignorarea completă a contextului.</p>
+<p>Folosirea unor acțiuni generice doar pentru a termina rapid situația.</p>
+</div></article>
+<article class="rule-card" id="rule-21">
+<div class="rule-number">21</div>
+<div class="rule-body"><h3>DISCONNECT ÎN ROLEPLAY</h3>
+<p>Părăsirea intenționată a jocului în timpul unei situații RP pentru a evita consecințele este strict interzisă.</p>
+<p>În cazul unei deconectări accidentale, jucătorul trebuie să revină cât mai repede și să continue situația dacă acest lucru este posibil.</p>
+<p>Disconnect-ul intenționat pentru evitarea unei arestări, a unui conflict, a unui jaf sau a altor consecințe RP poate fi sancționat sever.</p>
+</div></article>
+<article class="rule-card" id="rule-22">
+<div class="rule-number">22</div>
+<div class="rule-body"><h3>AFK ÎN ROLEPLAY</h3>
+<p>Este interzis să intri într-o situație RP și să pleci intenționat de la calculator sau să ignori situația pentru a evita participarea.</p>
+<p>Dacă apare o urgență reală, jucătorul trebuie să comunice acest lucru OOC atunci când este posibil.</p>
+</div></article>
+<article class="rule-card" id="rule-23">
+<div class="rule-number">23</div>
+<div class="rule-body"><h3>DESCHIDERE OOC ÎN IC</h3>
+<p>Este interzisă introducerea informațiilor OOC într-o situație IC.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>„Chem adminul.”</p>
+<p>„Îți fac ticket.”</p>
+<p>„Ești MG.”</p>
+<p>„Îți dau report.”</p>
+<p>„Am văzut pe Discord.”</p>
+<p>„Știu cine ești pentru că ți-am văzut numele.”</p>
+<p>Problemele administrative se discută separat de situația RP.</p>
+</div></article>
+<article class="rule-card" id="rule-24">
+<div class="rule-number">24</div>
+<div class="rule-body"><h3>TROLLING</h3>
+<p>Trolling-ul reprezintă comportamentul intenționat care distruge experiența celorlalți jucători.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Acțiuni repetate menite doar să deranjeze.</p>
+<p>Sunete sau comportamente intenționat perturbatoare.</p>
+<p>Distrugerea RP-ului altor persoane fără motiv.</p>
+<p>Crearea continuă de situații absurde.</p>
+<p>Folosirea mecanicilor jocului pentru a deranja comunitatea.</p>
+</div></article>
+<article class="rule-card" id="rule-25">
+<div class="rule-number">25</div>
+<div class="rule-body"><h3>FAKE COP</h3>
+<p>Este interzisă asumarea falsă a identității unui polițist sau a unei alte autorități pentru a obține avantaje IC.</p>
+<p class="label">Exemple:</p>
+<ul>
+</ul>
+<p>Pretinderea că ești polițist.</p>
+<p>Emiterea unor ordine sub identitatea unei autorități.</p>
+<p>Oprirea sau percheziționarea altor persoane pretinzând că ești agent.</p>
+<p>Folosirea unei identități false pentru a obține acces sau informații.</p>
+</div></article>
+<article class="rule-card" id="rule-26">
+<div class="rule-number">26</div>
+<div class="rule-body"><h3>ILEGALITĂȚI ÎN ZONE PUBLICE</h3>
+<p>Acțiunile ilegale în zone publice trebuie să aibă un motiv RP foarte bine justificat.</p>
+<p class="label">Nu este acceptabil să:</p>
+<ul>
+<li>ameninți persoane aleatoriu în spații publice;</li>
+<li>începi conflicte fără motiv;</li>
+<li>folosești arme fără context;</li>
+<li>răpești persoane aleatoriu;</li>
+<li>creezi haos într-o zonă publică doar pentru amuzament.</li>
+</ul>
+<p>Zonele publice trebuie tratate ca locuri în care există martori, civili și autorități.</p>
+</div></article>
+<article class="rule-card" id="rule-27">
+<div class="rule-number">27</div>
+<div class="rule-body"><h3>JAFURI</h3>
+<p>Orice jaf trebuie să aibă un scop RP și să fie construit în jurul unui scenariu credibil.</p>
+<p class="label">Reguli:</p>
+<ul>
+</ul>
+<p>Nu jefui persoane aleatoriu fără un motiv.</p>
+<p>Nu transforma fiecare interacțiune într-un jaf.</p>
+<p>Nu cere victimei lucruri nerealiste.</p>
+<p>Nu folosi jaful ca simplă metodă de a obține bunuri.</p>
+<p>Nu ucide victima fără o justificare RP.</p>
+<p>Nu folosi o situație OOC pentru a pregăti jaful.</p>
+<p>Nu transforma un jaf într-un conflict armat fără motiv.</p>
+<p>Un jaf bun trebuie să ofere victimei posibilitatea de a reacționa și să creeze o situație RP, nu doar să urmărească obținerea unui avantaj.</p>
+</div></article>
+<article class="rule-card" id="rule-28">
+<div class="rule-number">28</div>
+<div class="rule-body"><h3>RĂPIRI</h3>
+<p>Răpirile trebuie să aibă un motiv IC clar.</p>
+<p class="label">Este interzis:</p>
+<ul>
+<li>să răpești persoane aleatoriu;</li>
+<li>să răpești doar pentru distracție;</li>
+<li>să folosești răpirea pentru a forța un alt jucător să abandoneze RP-ul;</li>
+<li>să ceri lucruri absurde;</li>
+<li>să transformi răpirea într-o execuție fără context.</li>
+</ul>
+<p>Victima trebuie să aibă posibilitatea de a reacționa realist la situație.</p>
+</div></article>
+<article class="rule-card" id="rule-29">
+<div class="rule-number">29</div>
+<div class="rule-body"><h3>ILEGALITĂȚI ȘI ORGANIZAȚII</h3>
+<p>Organizațiile criminale trebuie să funcționeze într-un mod coerent și realist.</p>
+<p>Este interzisă formarea unor grupuri numeroase doar pentru a obține un avantaj numeric.</p>
+<p class="label">Fake Mafia</p>
+<ul>
+</ul>
+<p>Un grup creat artificial doar pentru a domina o situație, fără structură, poveste sau motiv RP, poate fi considerat Fake Mafia.</p>
+<p class="label">Alianțe</p>
+<ul>
+</ul>
+<p>Alianțele dintre grupări trebuie să aibă o justificare IC și să fie coerente cu relațiile dintre personaje.</p>
+<p>Nu este permisă schimbarea instantanee a alianțelor doar pentru avantaj într-o anumită situație.</p>
+</div></article>
+<article class="rule-card" id="rule-30">
+<div class="rule-number">30</div>
+<div class="rule-body"><h3>CONDUCERE NON-RP</h3>
+<p>Conducerea trebuie realizată în funcție de condițiile drumului, vehiculului și situației.</p>
+<p class="label">Este interzis:</p>
+<ul>
+</ul>
+<p>Conducerea complet nerealistă fără motiv.</p>
+<p>Ignorarea accidentelor grave.</p>
+<p>Conducerea agresivă doar pentru distracție.</p>
+<p>Folosirea unor trasee imposibile pentru a evita o situație.</p>
+<p>Conducerea cu viteză absurdă în zone aglomerate fără un motiv RP.</p>
+<p>Într-o situație de urgență, pot exista abateri de la regulile normale de circulație, însă acestea trebuie să fie justificate de situație.</p>
+</div></article>
+<article class="rule-card" id="rule-31">
+<div class="rule-number">31</div>
+<div class="rule-body"><h3>ACCIDENTE</h3>
+<p>Accidentele trebuie roleplay-uite în funcție de gravitate.</p>
+<p>Un accident major nu poate fi tratat ca și cum nu s-ar fi întâmplat nimic.</p>
+<p class="label">Jucătorii trebuie să țină cont de:</p>
+<ul>
+<li>starea vehiculului;</li>
+<li>posibilele răni;</li>
+<li>impactul accidentului;</li>
+<li>reacția celorlalți participanți;</li>
+<li>necesitatea intervenției serviciilor de urgență.</li>
+</ul>
+</div></article>
+<article class="rule-card" id="rule-32">
+<div class="rule-number">32</div>
+<div class="rule-body"><h3>SUFERINȚE / UMILIRE</h3>
+<p>Este interzisă umilirea intenționată a altor jucători pentru amuzament.</p>
+<p class="label">Exemple:</p>
+<ul>
+<li>obligarea unei persoane să facă lucruri degradante;</li>
+<li>batjocorirea unei persoane după ce aceasta a pierdut o situație;</li>
+<li>folosirea unei situații RP pentru a umili OOC un jucător;</li>
+<li>publicarea sau expunerea unei persoane doar pentru a o face de râs.</li>
+</ul>
+<p>Glumele dintre jucători sunt permise atât timp cât nu devin hărțuire sau abuz.</p>
+</div></article>
+<article class="rule-card" id="rule-33">
+<div class="rule-number">33</div>
+<div class="rule-body"><h3>CORUPȚIE</h3>
+<p>Corupția trebuie să fie tratată ca un element serios de roleplay.</p>
+<p>Un personaj care face parte dintr-o autoritate nu poate deveni corupt doar pentru a obține avantaje personale sau pentru a ajuta prieteni.</p>
+<p>Orice scenariu de corupție trebuie să fie bine construit, realist și să aibă consecințe RP.</p>
+</div></article>
+<article class="rule-card" id="rule-34">
+<div class="rule-number">34</div>
+<div class="rule-body"><h3>ÎNȘELĂTORII</h3>
+<p>Înșelătoriile care implică bunuri sau avantaje între jucători trebuie să aibă un cadru RP coerent.</p>
+<p>Înșelătoria nu trebuie folosită pentru a exploata limitele sistemului sau pentru a fura bunuri prin metode OOC.</p>
+<p>Frauda bazată pe bug-uri, exploatări sau manipularea mecanicilor este strict interzisă.</p>
+</div></article>
+<article class="rule-card" id="rule-35">
+<div class="rule-number">35</div>
+<div class="rule-body"><h3>POSTHUNT</h3>
+<p>Posthunt reprezintă căutarea intenționată a unei sancțiuni pentru alt jucător, fără ca încălcarea să fi afectat în mod real situația RP.</p>
+<p class="label">Nu este permis:</p>
+<ul>
+<li>să creezi reclamații pentru orice greșeală minoră;</li>
+<li>să urmărești sancționarea unei persoane cu orice preț;</li>
+<li>să folosești regulamentul ca instrument de răzbunare;</li>
+<li>să creezi reclamații multiple fără motiv.</li>
+</ul>
+<p>Scopul regulamentului este protejarea calității RP, nu acumularea de sancțiuni.</p>
+</div></article>
+<article class="rule-card" id="rule-36">
+<div class="rule-number">36</div>
+<div class="rule-body"><h3>TICKET ÎN TIMPUL RP</h3>
+<p>Problemele OOC nu trebuie să întrerupă o situație RP decât atunci când există o încălcare serioasă care necesită intervenție.</p>
+<p>Dacă problema poate fi rezolvată după terminarea situației, este recomandat ca RP-ul să fie lăsat să se desfășoare.</p>
+<p>Nu este permisă folosirea ticket-urilor pentru a evita consecințele IC.</p>
+</div></article>
+<article class="rule-card" id="rule-37">
+<div class="rule-number">37</div>
+<div class="rule-body"><h3>MINCIUNA CĂTRE STAFF</h3>
+<p>Atunci când o situație este analizată de staff, participanții trebuie să ofere informații corecte.</p>
+<p>Mințirea intenționată pentru a evita o sancțiune poate duce la o sancțiune suplimentară.</p>
+<p>Fiecare participant trebuie să prezinte situația din perspectiva sa, fără manipularea dovezilor sau a contextului.</p>
+</div></article>
+<article class="rule-card" id="rule-38">
+<div class="rule-number">38</div>
+<div class="rule-body"><h3>MULTIPLE RULEBREAKS</h3>
+<p>Atunci când un jucător încalcă mai multe reguli în cadrul aceleiași situații, staff-ul poate aplica sancțiuni suplimentare în funcție de gravitate.</p>
+<p>Încălcarea repetată sau intenționată a mai multor reguli poate duce la o sancțiune severă, inclusiv suspendarea accesului la comunitate.</p>
+</div></article>
+<article class="rule-card" id="rule-39">
+<div class="rule-number">39</div>
+<div class="rule-body"><h3>TOLERANȚĂ ZERO</h3>
+<p>Jucătorii care acumulează în mod repetat încălcări ale regulamentului, au un comportament toxic sau afectează constant experiența comunității pot intra sub incidența politicii de Toleranță Zero.</p>
+<p class="label">Aceasta poate fi aplicată în cazul:</p>
+<ul>
+<li>încălcărilor repetate;</li>
+<li>comportamentului toxic;</li>
+<li>trolling-ului repetat;</li>
+<li>ignorării intenționate a regulamentului;</li>
+<li>acumulării unui număr mare de sancțiuni;</li>
+<li>încercărilor repetate de a exploata regulamentul.</li>
+</ul>
+</div></article>
+<article class="rule-card" id="rule-40">
+<div class="rule-number">40</div>
+<div class="rule-body"><h3>REGULA BUNULUI-SIMȚ</h3>
+<p>Regulamentul nu poate acoperi fiecare situație posibilă.</p>
+<p class="label">În cazul în care o acțiune nu este menționată explicit, staff-ul poate analiza dacă aceasta respectă principiile de:</p>
+<ul>
+<li>realism;</li>
+<li>fair-play;</li>
+<li>logică;</li>
+<li>respect față de ceilalți;</li>
+<li>calitate a roleplay-ului;</li>
+<li>lipsă de abuz asupra mecanicilor;</li>
+<li>consecvență IC.</li>
+</ul>
+<p>Faptul că o acțiune nu este scrisă literal în regulament NU înseamnă automat că este permisă.</p>
+</div></article>
+<article class="rule-card" id="rule-41">
+<div class="rule-number">41</div>
+<div class="rule-body"><h3>PRINCIPIUL HARD ROLEPLAY</h3>
+<p>Pe acest server, scopul principal este crearea unor situații RP credibile și interesante.</p>
+<p>Jucătorii trebuie să urmărească calitatea situației, nu câștigarea ei cu orice preț.</p>
+<p>Nu există obligația ca personajul tău să câștige fiecare conflict.</p>
+<p class="label">Un roleplay bun poate însemna:</p>
+<ul>
+<li>să pierzi;</li>
+<li>să fii arestat;</li>
+<li>să fii rănit;</li>
+<li>să pierzi o confruntare;</li>
+<li>să fii nevoit să negociezi;</li>
+<li>să accepți consecințele acțiunilor personajului.</li>
+</ul>
+<p>Câștigarea situației nu este mai importantă decât calitatea roleplay-ului.</p>
+</div></article>
+<article class="rule-card" id="rule-42">
+<div class="rule-number">42</div>
+<div class="rule-body"><h3>SANCȚIONARE</h3>
+<p class="label">Sancțiunile sunt stabilite în funcție de:</p>
+<p>Gravitatea încălcării.</p>
+<p>Intenția jucătorului.</p>
+<p>Impactul asupra RP-ului.</p>
+<p>Istoricul disciplinar.</p>
+<p>Repetarea abaterii.</p>
+<p>Gradul de abuz.</p>
+<p>Contextul general al situației.</p>
+<p>Staff-ul își rezervă dreptul de a aplica o sancțiune mai mică sau mai mare atunci când situația o justifică.</p>
+</div></article>
+<article class="rule-card" id="rule-43">
+<div class="rule-number">43</div>
+<div class="rule-body"><h3>REGULA FINALĂ</h3>
+<p>Dacă trebuie să alegi între a câștiga o situație și a păstra un RP bun, alegi întotdeauna RP-ul.</p>
+<p>Respectă personajul tău, respectă personajele celorlalți și construiește situații în care ambele părți pot contribui la poveste.</p>
+<p>Hard Roleplay înseamnă realism, consecințe și respect pentru scenariul creat împreună.</p>
+</div></article></div>
+  <div id="noResults" class="empty" hidden>Nu am găsit nicio regulă pentru această căutare.</div>
+</section>
+
+<section id="sanctiuni" class="page">
+  <div class="page-head">
+    <div><div class="eyebrow">STAFF PANEL</div><h2>Formular <span>de sancțiuni</span></h2><p>Sancțiuni mai ușoare, progresive. Contextul situației contează.</p></div>
+  </div>
+  <div class="notice"><b>Principiu:</b> prima abatere minoră poate primi WARN. BAN-ul crește progresiv pentru repetare sau abateri grave. Staff-ul poate adapta sancțiunea la context.</div>
+  <div class="table-card">
+    <table><thead><tr><th>Încălcare</th><th>Sancțiune recomandată</th></tr></thead><tbody><tr><td>MG — Metagaming</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>PG — Powergaming</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>RDM</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>VDM</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>NF — No Fear</td><td><span class="pill">3 zile BAN</span></td></tr>
+<tr><td>CF — Cop Fear</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>RK — Revenge Kill</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>CK abuziv</td><td><span class="pill">WARN / 1 zi BAN</span></td></tr>
+<tr><td>Rob &amp; Kill / Kill &amp; Rob</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Mixing</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Car Ram</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Car Surf</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Provoking</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Cop Bait</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Refuz RP</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Fail RP</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>LER — Low Effort RP</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Disconnect în RP</td><td><span class="pill">1–3 zile BAN</span></td></tr>
+<tr><td>AFK în RP</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>OOC în IC</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Trolling</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Fake Cop</td><td><span class="pill">1–3 zile BAN</span></td></tr>
+<tr><td>Jaf fără motiv RP</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Răpire fără motiv RP</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Corupție abuzivă</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Înșelătorie</td><td><span class="pill">WARN / 1 zi BAN</span></td></tr>
+<tr><td>Posthunt</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Mințirea Staff-ului</td><td><span class="pill">1–3 zile BAN</span></td></tr>
+<tr><td>Toxicitate</td><td><span class="pill">WARN</span></td></tr>
+<tr><td>Multiple Rulebreaks</td><td><span class="pill">1–3 zile BAN</span></td></tr>
+<tr><td>Încălcări repetate</td><td><span class="pill">3–7 zile BAN</span></td></tr></tbody></table>
+  </div>
+  <div class="steps">
+    <div><b>01</b><h3>WARN</h3><p>Prima abatere minoră sau o încălcare cu impact redus.</p></div>
+    <div><b>02</b><h3>1 zi</h3><p>Repetarea unei abateri sau o situație mai serioasă.</p></div>
+    <div><b>03</b><h3>3–7 zile</h3><p>Abateri grave, repetate sau multiple rulebreaks.</p></div>
+    <div><b>04</b><h3>14 zile</h3><p>Doar pentru cazuri foarte grave sau istorice repetate.</p></div>
+  </div>
+</section>
+
+<section id="despre" class="page">
+  <div class="about">
+    <div class="about-logo"><img src="logo.png" alt="OG Romania"></div>
+    <div>
+      <div class="eyebrow">DESPRE COMUNITATE</div>
+      <h2>OG Romania</h2>
+      <p>OG Romania este o comunitate în creștere care se bazează pe <strong>Hard Roleplay</strong>, realism, respect și interacțiuni autentice între jucători.</p>
+      <p>Nu vrem doar un server în care intri, faci câteva acțiuni și pleci. Vrem să construim o comunitate în care fiecare personaj are o poveste, fiecare decizie poate schimba un scenariu, iar fiecare interacțiune poate deveni o amintire bună.</p>
+      <p>Ne dorim o atmosferă serioasă, dar primitoare, în care jucătorii noi să se poată integra ușor, iar cei experimentați să găsească suficiente situații pentru a-și dezvolta personajele și poveștile.</p>
+      <p>Prin reguli clare, sancțiuni echilibrate și accent pe fair-play, încercăm să păstrăm un mediu în care <strong>calitatea roleplay-ului este mai importantă decât câștigarea unei situații</strong>.</p>
+      <p>Comunitatea evoluează împreună cu membrii ei. Ascultăm feedback-ul, îmbunătățim experiența și construim pas cu pas un loc în care să vrei să revii.</p>
+      <a class="primary" href="https://discord.gg/nYnZEfFnF" target="_blank" rel="noopener">Intră pe Discord ↗</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><b>OG ROMANIA</b><span> • ERLC HARD ROLEPLAY</span></div>
+  <div>© <span id="year"></span> OG Romania. Toate drepturile rezervate.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
